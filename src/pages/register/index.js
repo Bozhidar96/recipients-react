@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import PageLayout from '../../component/page-layout'
 import styles from './index.module.css'
 import Input from '../../component/input'
+import SubmitButton from '../../component/button/submit'
 
 class RegisterPage extends Component { 
     constructor(props) {
@@ -45,6 +46,7 @@ class RegisterPage extends Component {
                         label="rePassword"
                         id="rePassword"
                     />
+                    <SubmitButton title="Register" />
                 </div>
             </PageLayout>
         )
