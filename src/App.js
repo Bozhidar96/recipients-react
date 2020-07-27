@@ -20,6 +20,6 @@ import './App.css';
       </header>
     </div>
   );
-}
+
 
 export default App;

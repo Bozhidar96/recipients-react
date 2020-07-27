@@ -2,15 +2,15 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import ErrorPage from './pages/error'
+import RegisterPage from './pages/register'
 
 const Navigation = () => {
     return(
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact component={ErrorPage}/>
-                {/* <Route path="/register"  component={RegisterPage}/>
-                <Route path="/login"  component={LoginPage}/>
-                <Route path="/profile/:userid"  component={ProfilePage}/> */}
+                <Route path="/register"  component={RegisterPage}/>
+          
                 <Route component={ErrorPage}/>
             </Switch>
         </BrowserRouter>
