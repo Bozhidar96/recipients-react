@@ -10,19 +10,22 @@ const RecipientsPage = () => {
 
     return (
         <PageLayout>
-            <div>
-                {
-                  recipient.map(recp => {
-                      return(
-                        <Recipients 
-                            key={recp.author}
-                            description={recp.description}
-                            author={recp.author}
-                        />
-                      )
-                  })
-                }
-            </div>
+            <div className="container">
+                <div className="row"></div>
+                    <div className="card-deck">
+                        {
+                        recipient.map(recp => {
+                            return(
+                                <Recipients 
+                                    key={recp.author}
+                                    description={recp.description}
+                                    author={recp.author}
+                                />
+                            )
+                        })
+                        }
+                    </div>
+                    </div>
         </PageLayout>
     )
 }

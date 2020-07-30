@@ -12,6 +12,22 @@ const getRecipients = () => {
         {
             description: "SALATI",
             author: "MISHO"
+        },
+        {
+            description: "SALATI",
+            author: "MISHO"
+        },
+        {
+            description: "SALATI",
+            author: "MISHO"
+        },
+        {
+            description: "SALATI",
+            author: "MISHO"
+        },
+        {
+            description: "SALATI",
+            author: "MISHO"
         }
     ]
     return recipients
