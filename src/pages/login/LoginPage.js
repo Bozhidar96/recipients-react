@@ -1,8 +1,8 @@
 import React , { Component } from 'react' 
-import SubmitButton from '../../component/button/submit'
+import SubmitButton from '../../component/button/submit/SubmitButtonComponent'
 import styles from './index.module.css'
-import PageLayout from '../../component/page-layout'
-import Input from '../../component/input'
+import PageLayout from '../../component/page-layout/PageLayoutComponent'
+import Input from '../../component/input/InputComponent'
 
 class LoginPage extends Component {
     constructor(props) {

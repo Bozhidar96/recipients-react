@@ -1,29 +1,31 @@
-import React from 'react'
-import Link from '../link'
+import React, { Component } from 'react'
+import Link from '../link/LinkComponent'
 import styles from './index.module.css'
+// import logo from '../../images/'
 import getNavigation from '../../utils/navigation'
 
-const Footer = () => {
-    const links = getNavigation()
-    return (
-        <footer className={styles.footer}>
-            <div>
+class Header extends Component {
+
+    render () {
+        const links = getNavigation(styles.navigation)
+
+        return (
+            <header className={styles.navigation}>
                 {
-                    links.map(navElement => {
+                    links.map(navElement => { 
                         return (
                             <Link
                                 key={navElement.title}
                                 href={navElement.link}
                                 title={navElement.title}
-                                type="footer"
+                                type="header"
                             />
                         )
                     })
                 }
-            </div>
-            <p className={styles.university}>Created by Bozhidr Rusev</p>
-        </footer>
-    )
+            </header>
+        )
+    }
 }
 
-export default Footer
+export default Header

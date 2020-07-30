@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import PageLayout from '../../component/page-layout'
+import PageLayout from '../../component/page-layout/PageLayoutComponent'
 import styles from './index.module.css'
-import Input from '../../component/input'
-import SubmitButton from '../../component/button/submit'
+import Input from '../../component/input/InputComponent'
+import SubmitButton from '../../component/button/submit/SubmitButtonComponent'
 
 class RegisterPage extends Component { 
     constructor(props) {

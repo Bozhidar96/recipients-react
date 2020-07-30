@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../header'
+import Header from '../header/HeaderComponent'
 import styles from './index.module.css'
-import Footer from '../footer'
+import Footer from '../footer/FooterComponent'
 
 const PageLayout = (props) => {
     return (

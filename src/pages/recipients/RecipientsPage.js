@@ -1,7 +1,7 @@
 import React from 'react'
-import PageLayout from '../../component/page-layout'
+import PageLayout from '../../component/page-layout/PageLayoutComponent'
 // import styles from './index.module.css'
-import Recipients from '../../component/recipient'
+import Recipients from '../../component/recipient/RecipientComponent'
 import getRecipients from '../../utils/recipients'
 
 const RecipientsPage = () => {
