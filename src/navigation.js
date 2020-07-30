@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-import ErrorPage from './pages/error'
-import RegisterPage from './pages/register'
-import LoginPage from './pages/login'
-import RecipientsPage from './pages/recipients';
+import ErrorPage from './pages/error/ErrorPage'
+import RegisterPage from './pages/register/RegisterPage'
+import LoginPage from './pages/login/LoginPage'
+import RecipientsPage from './pages/recipients/RecipientsPage';
 
 const Navigation = () => {
     return(
