@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from '../link/LinkComponent'
 import styles from './index.module.css'
-import getNavigation from '../../utils/navigation'
+import getNavigation from '../../utils/navigation-header'
 
 const Footer = () => {
     const links = getNavigation()

@@ -1,20 +1,16 @@
 const getNavigation = () => {
     const links = [
         {
-            title: "Recipients",
+            title: "Рецепти",
             link: "/"
         },
         {
-            title: "Profile",
-            link: `/profile/`
+            title: "Контакти",
+            link: `/contact`
         },
         {
-            title: "Register",
+            title: "Права за поверителност",
             link: "/register"
-        },
-        {
-            title: "Login",
-            link: "/login"
         },
     ]
 
