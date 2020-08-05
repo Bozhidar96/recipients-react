@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Link from '../link/LinkComponent'
 import styles from './index.module.css'
 // import logo from '../../images/'
-import getNavigation from '../../utils/navigation'
+import getNavigation from '../../utils/navigation-header'
 
 class Header extends Component {
 

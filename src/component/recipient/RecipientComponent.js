@@ -1,11 +1,11 @@
 import React from 'react'
-// import styles from './index.module.css'
+import styles from './index.module.css'
 
 const Recipient = ({ description, author}) => {
 
     return (
+        <div className={styles["card-margin"]} >
             <div className="card">
-                <img className="card-img-top"  alt="Card image cap"></img>
                 <div className="card-body">
                     <p className="card-text">
                     {description}
@@ -16,6 +16,7 @@ const Recipient = ({ description, author}) => {
                         </span>
                     </div>
                 </div>
+            </div>
             </div>
             )
 }
